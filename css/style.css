@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body{
+    width: 100vw; 
+    background-color: black;
+}
+body#principal{
+    background: url('../pacote-d013/imagens/fundo-madeira.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+#celular{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 40vw;
+    min-height: 10vw;
+}
