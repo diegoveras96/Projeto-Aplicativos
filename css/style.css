@@ -13,19 +13,20 @@ body#principal{
     top: 50%;
     transform: translate(-50%, -50%);
     max-width: 40%;
-    min-height: 10vw;
+    min-height: 10vw; 
 }
 iframe{
     position: absolute;
-    top: 12%;
-    left: 6%;
+    top: 11.5%;
+    left: 5.5%;
     width: 17.2rem;
     min-height: 30rem;
-    background: url('../pacote-d013/imagens/tela-home.jpg');
-    background-size: cover;
+    /* background: url('../pacote-d013/imagens/tela-home.jpg');
+    background-size: cover; */
     border-radius: 10px;
+    border: solid black 2px;
 }
 
 img{
-    position: relative; 
+    position: relative;
 }
