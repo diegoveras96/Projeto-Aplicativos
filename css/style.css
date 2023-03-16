@@ -1,12 +1,10 @@
 @charset "utf-8";
 
-body{
-    width: 100vw; 
-    background-color: black;
-}
 body#principal{
     background: url('../pacote-d013/imagens/fundo-madeira.jpg') center center no-repeat fixed;
     background-size: cover;
+    width: 100vw; 
+    background-color: black;
 }
 
 #celular{
@@ -14,6 +12,20 @@ body#principal{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    max-width: 40vw;
+    max-width: 40%;
     min-height: 10vw;
+}
+iframe{
+    position: absolute;
+    top: 12%;
+    left: 6%;
+    width: 17.2rem;
+    min-height: 30rem;
+    background: url('../pacote-d013/imagens/tela-home.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+img{
+    position: relative; 
 }
