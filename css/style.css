@@ -21,8 +21,8 @@ iframe{
     left: 5.5%;
     width: 17.2rem;
     min-height: 30rem;
-    /* background: url('../pacote-d013/imagens/tela-home.jpg');
-    background-size: cover; */
+    background: url('../pacote-d013/imagens/tela-home.jpg');
+    background-size: cover;
     border-radius: 10px;
     border: solid black 2px;
 }
