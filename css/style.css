@@ -1,19 +1,24 @@
 @charset "utf-8";
 
-body#principal{
+*{
+    margin: 0px;
+}
+
+body{
     background: url('../pacote-d013/imagens/fundo-madeira.jpg') center center no-repeat fixed;
-    background-size: cover;
-    width: 100vw; 
+    background-size: cover; 
+    background-attachment: fixed;
     background-color: black;
 }
 
 #celular{
     position: absolute;
+    margin-top: 5px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     max-width: 40%;
-    min-height: 10vw; 
+    min-height: 10vw;
 }
 iframe{
     position: absolute;
@@ -21,12 +26,34 @@ iframe{
     left: 5.5%;
     width: 17.2rem;
     min-height: 30rem;
-    background: url('../pacote-d013/imagens/tela-home.jpg');
-    background-size: cover;
     border-radius: 10px;
     border: solid black 2px;
 }
 
+iframe.padrao{
+    background: url('../pacote-d013/imagens/tela-home.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+iframe.insta{
+    background: url('../pacote-d013/imagens/tela-instagram.jpg') center center no-repeat;
+    background-size: cover;
+}
+
 img{
     position: relative;
+}
+
+.btn{
+    cursor: pointer;
+    width: 3rem;
+    margin: 15px;
+    display: block;
+    border-radius: 50%;
+}
+.btn:hover{
+    border: solid white 1px;
+    transform: translate(-8%, -5%);
+    transition: .8s;
+    box-shadow: 3px 3px 9px black;
 }
