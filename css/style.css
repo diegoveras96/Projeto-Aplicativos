@@ -47,16 +47,18 @@ iframe.insta{
     background-size: cover;
 }
 
+section#redes-sociais{
+    text-align: right;
+}
 .btn{
-    cursor: pointer;
     width: 3rem;
-    margin: 15px;
-    display: block;
+    margin: 10px;
+    margin-left: 1vw;
     border-radius: 50%;
 }
 .btn:hover{
     border: solid white 1px;
     transform: translate(-8%, -5%);
-    transition: .8s;
+    transition: transform .8s, border 1s;
     box-shadow: 3px 3px 9px black;
 }
