@@ -2,15 +2,22 @@
 
 *{
     margin: 0px;
+    padding: 0px;
 }
 
 body{
     background: url('../pacote-d013/imagens/fundo-madeira.jpg') center center no-repeat fixed;
+    width: 100vw;
+    height: 100vh;
     background-size: cover; 
     background-attachment: fixed;
     background-color: black;
 }
 
+main{
+    height: 100vh;
+    position: relative; 
+}
 #celular{
     position: absolute;
     margin-top: 5px;
@@ -38,10 +45,6 @@ iframe.padrao{
 iframe.insta{
     background: url('../pacote-d013/imagens/tela-instagram.jpg') center center no-repeat;
     background-size: cover;
-}
-
-img{
-    position: relative;
 }
 
 .btn{
