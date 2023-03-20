@@ -19,13 +19,14 @@ main{
     position: relative; 
 }
 #celular{
+    background: url('../pacote-d013/imagens/frame-iphone.png') top center no-repeat fixed;
+    background-attachment: fixed;
+    background-color: aqua;
     position: absolute;
-    margin-top: 5px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    max-width: 40%;
-    min-height: 10vw;
+    
 }
 iframe{
     position: absolute;
@@ -35,16 +36,6 @@ iframe{
     min-height: 30rem;
     border-radius: 10px;
     border: solid black 2px;
-}
-
-iframe.padrao{
-    background: url('../pacote-d013/imagens/tela-home.jpg') center center no-repeat;
-    background-size: cover;
-}
-
-iframe.insta{
-    background: url('../pacote-d013/imagens/tela-instagram.jpg') center center no-repeat;
-    background-size: cover;
 }
 
 section#redes-sociais{
