@@ -21,7 +21,8 @@ main{
 #celular{
     background: url('../pacote-d013/imagens/frame-iphone.png') top center no-repeat fixed;
     background-attachment: fixed;
-    background-color: aqua;
+    height: 627px;
+    width: 311px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -30,12 +31,12 @@ main{
 }
 iframe{
     position: absolute;
-    top: 11.5%;
-    left: 5.5%;
-    width: 17.2rem;
-    min-height: 30rem;
-    border-radius: 10px;
-    border: solid black 2px;
+    top: 13%;
+    left: 7.2%;
+    width: 266px;
+    height: 28.9rem;
+    /* border-radius: 10px; */
+    /* border: solid black 2px; */
 }
 
 section#redes-sociais{
