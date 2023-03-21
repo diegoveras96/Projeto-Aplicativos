@@ -32,11 +32,9 @@ main{
 iframe{
     position: absolute;
     top: 13%;
-    left: 7.2%;
+    left: 7.35%;
     width: 266px;
-    height: 28.9rem;
-    /* border-radius: 10px; */
-    /* border: solid black 2px; */
+    height: 29.4rem;
 }
 
 section#redes-sociais{
