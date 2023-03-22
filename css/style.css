@@ -52,3 +52,22 @@ section#redes-sociais{
     transition: transform .8s, border 1s;
     box-shadow: 3px 3px 9px black;
 }
+
+
+/* #pagina  a{
+    display: block;
+    background-color: darkred;
+    color: white;
+    text-align: center;    
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+section#pagina > a:hover{
+    background-color: red;
+}
+section#pagina > a:active{
+    background-color: rgb(155, 10, 10);
+    border: 2px solid black;
+} */

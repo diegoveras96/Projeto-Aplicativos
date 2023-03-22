@@ -15,7 +15,7 @@ img{
     
 }
 
-a{
+main > a{
     display: block;
     background-color: darkred;
     color: white;
@@ -26,10 +26,10 @@ a{
     font-size: 20px;
 }
 
-a:hover{
+main > a:hover{
     background-color: red;
 }
-a:active{
+main > a:active{
     background-color: rgb(155, 10, 10);
     border: 2px solid black;
 }
